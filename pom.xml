@@ -22,7 +22,7 @@
     <!-- VERSIONS -->
     <tycho.version>0.23.1</tycho.version>
     <tycho-extras.version>${tycho.version}</tycho-extras.version>
-    <cs-studio.version>4.3</cs-studio.version>
+    <cs-studio.version>4.4</cs-studio.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jgit.dirtyWorkingTree>error</jgit.dirtyWorkingTree>
     <baselineMode>fail</baselineMode>
@@ -70,7 +70,7 @@
       <repositories>
         <repository>
           <id>csstudio-maven-osgi-bundles</id>
-          <url>${download.root}/maven-osgi-bundles/4.3</url>
+          <url>${download.root}/maven-osgi-bundles/${cs-studio.version}</url>
           <layout>p2</layout>
         </repository>
       </repositories>
